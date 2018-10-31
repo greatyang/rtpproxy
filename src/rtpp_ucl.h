@@ -24,11 +24,9 @@
  * SUCH DAMAGE.
  *
  */
-
+#include <ucl.h>
 struct ucl_object_s;
 struct rtpp_log;
-
-typedef struct ucl_object_s ucl_object_t;
 
 /*
  * Config parser helper callback function pointer alias
